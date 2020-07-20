@@ -1,9 +1,8 @@
-
 document.querySelector(".user input").addEventListener("keydown",function(event){
-    
-   var t = event.key
+  
+   var t = event.keyCode
    var v = document.querySelector(".user input").value
-    if(t=="Backspace"){
+    if(t==8){
         if(v.length==1){
             document.querySelector(".ui").style.display="inline-block"
             document.querySelector(".uii").style.display="inline-block"
