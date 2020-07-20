@@ -1,5 +1,5 @@
 document.querySelector(".user input").addEventListener("keydown",function(event){
-  
+   console.log(event)
    var t = event.keyCode
    var v = document.querySelector(".user input").value
     if(t==8){
