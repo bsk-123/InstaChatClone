@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+   
 }
 .container{
     height: 100%;
@@ -15,7 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 5px 10px 8px;
+    padding: 10px 5px;
     box-shadow: 0 -5px 5px 3px grey;
 }
 .hi{
@@ -131,6 +131,7 @@ nav{
 }
 .user input{
     border: none;
+    color: black;
     width: 40%;
 }
 .user{
