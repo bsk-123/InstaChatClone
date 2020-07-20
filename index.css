@@ -15,7 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 8px;
     box-shadow: 0 -5px 5px 3px grey;
 }
 .hi{
@@ -131,7 +131,6 @@ nav{
 }
 .user input{
     border: none;
-    color: #F4F4F4;
     width: 40%;
 }
 .user{
